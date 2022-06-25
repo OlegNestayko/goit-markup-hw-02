@@ -1,0 +1,229 @@
+:root {
+  --main-light-color: #ffffff;
+  --accent-color: #2196f3;
+  --text-color: #757575;
+  --title-color: #212121;
+  --main-font: Roboto, sans-serif;
+  --font-logo: Raleway, sans-serif;
+  --primary-font-size: 14px;
+}
+
+body {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 16px;
+
+  background-color: var(--main-light-color);
+  color: var(--text-color);
+}
+/* Common Styles */
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.current {
+  color: var(--accent-color);
+}
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--title-color);
+}
+
+/* Header */
+
+.nav-logo {
+  color: #000000;
+
+  font-family: var(--font-logo);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+
+  letter-spacing: 0.03em;
+}
+
+.logo-text {
+  color: var(--accent-color);
+}
+
+.nav-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.nav-link {
+  color: var(--title-color);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+
+.contacs-item .contacs-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: inherit;
+}
+.contacs-link:hover,
+.contacs-link:focus {
+  color: var(--accent-color);
+}
+
+/* Main */
+
+/* Hero section */
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: var(--main-light-color);
+}
+.hero-buttom {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: var(--main-light-color);
+  background-color: var(--accent-color);
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Наши преимущества */
+
+.desc-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--title-color);
+}
+.desc-text {
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+}
+/* Чем мы занимаемся */
+
+/* Наша команда */
+
+.team-subtitle {
+  font-weight: 500;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+
+  color: var(--title-color);
+}
+
+.team-text {
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+
+/* Footer */
+.footer {
+  background-color: #2f303a;
+}
+.footer-logo {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--main-light-color);
+}
+
+.footer-adress:hover,
+.footer-adress:focus {
+  color: var(--accent-color);
+}
+.footer-adress {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: var(--main-light-color);
+}
+.footer-contacts {
+  font-style: normal;
+
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-contacts:hover,
+.footer-contacts:focus {
+  color: var(--accent-color);
+}
+
+/* Main Portfolio Page */
+
+/* filter */
+
+.filter-btn {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--title-color);
+  cursor: pointer;
+}
+.filter-btn:hover,
+.filter-btn:focus {
+  background-color: var(--accent-color);
+  color: var(--main-light-color);
+}
+/* Cards */
+
+.cards-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--title-color);
+}
+
+.cards-text {
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+
+  color: var(--text-color);
+}
